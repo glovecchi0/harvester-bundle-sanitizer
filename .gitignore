@@ -1,6 +1,16 @@
+# Anonymization mappings and temporary files
 mapping.tsv
+keys_only.txt
 *.sed
-test_anon/
+
+# Extracted and sanitized bundles
+sanitized_*/
 supportbundle_*
 *.zip
 *.txz
+*.tar.gz
+*.tgz
+
+# Editor & OS artifacts
+**/*.swp
+.DS_Store
